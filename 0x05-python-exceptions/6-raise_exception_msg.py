@@ -1,5 +1,5 @@
-g!/usr/bin/python3
+#!/usr/bin/python3
 
-def raise_exception_msg(message=""):
-    """Raise a NameError exception with a message."""
-    raise NameError(message)
+def raise_exception():
+    """Raise a TypeError exception."""
+    raise TypeError
